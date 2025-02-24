@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+
+}
+
+.tangerine {
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.804);
+}
