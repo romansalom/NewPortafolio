@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container h2 {
+    color: white;
+    font-size: 38px;
+    font-family: "Montserrat", Sans-serif;
+    max-width: 650px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 60px;
+
+
+}
+
+.paragraph {
+    color: white;
+    font-size: 32px;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    font-weight: 400px;
+}

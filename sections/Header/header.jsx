@@ -1,4 +1,6 @@
+import Hero from "@/components/Header/Hero/hero";
 import ItalicsName from "@/components/Header/ItalicsName/italicsName";
+import Logos from "@/components/Header/Logos/logos";
 import NavBar from "@/components/Header/NavBar/navBar";
 
 
@@ -6,9 +8,8 @@ export default function Header() {
     return (
         <div >
             <ItalicsName></ItalicsName>
-            {/* Seguramente lo use mas adelnte no me gusta como queda en el header
-                         <NavBar></NavBar>
-                         */}
+            <Hero></Hero>
+            <Logos></Logos>
 
 
         </div>
