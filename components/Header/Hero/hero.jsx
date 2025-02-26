@@ -16,7 +16,7 @@ export default function Hero() {
         let particles = [];
         class Particle {
             constructor() {
-                const startInside = Math.random() < 0.5; // 50% de chance de que inicie dentro del canvas
+                const startInside = Math.random() < 900; // 50% de chance de que inicie dentro del canvas
 
                 if (startInside) {
                     // Aparece en una posición aleatoria dentro del canvas
@@ -26,9 +26,9 @@ export default function Hero() {
                     this.x = Math.random() < 0.5 ? -10 : canvas.width + 10;
                 }
 
-                this.y = Math.random() * (canvas.height / 3) + (canvas.height * 2) / 3;
-                this.size = Math.random() * 2 + 0.5;
-                this.speedX = (Math.random() < 0.5 ? 1 : -1) * (Math.random() * 1.7 + 0.5);
+                this.y = Math.random() * (canvas.height / 2) + (canvas.height * 2) / 2;
+                this.size = Math.random() * 1.5 + 0.5;
+                this.speedX = (Math.random() < 0.5 ? 1 : -1) * (Math.random() * 0.8 + 0.2);
                 this.speedY = Math.random() * 1 - 0.25;
             }
 
@@ -44,7 +44,7 @@ export default function Hero() {
             }
 
             draw() {
-                ctx.fillStyle = "rgba(26, 49, 20, 0.49)";
+                ctx.fillStyle = "rgba(114, 49, 49, 0.49)";
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
                 ctx.fill();
@@ -67,7 +67,7 @@ export default function Hero() {
 
             requestAnimationFrame(animate);
         }
-        createParticles(200);
+        createParticles(800);
         animate();
 
         return () => {
