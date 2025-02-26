@@ -6,11 +6,11 @@ import NavBar from "@/components/Header/NavBar/navBar";
 
 export default function Header() {
     return (
-        <div >
+        < >
             <ItalicsName></ItalicsName>
             <Hero></Hero>
 
 
-        </div>
+        </ >
     );
 }

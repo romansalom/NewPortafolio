@@ -5,13 +5,14 @@
 
 
 
+
 .container h2 {
-    max-width: 650px;
+    max-width: 850px;
     text-align: center;
     line-height: 50px;
     margin-top: 80px;
     font-family: none;
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 100;
     line-height: 60px;
     color: #3a321e;
@@ -24,7 +25,7 @@
 
 .paragraph {
     color: rgb(54, 54, 49);
-    font-size: 30px;
+    font-size: 38px;
     font-family: 'Tangerine', cursive;
     text-align: center;
     font-weight: 600;
@@ -49,17 +50,20 @@
         margin-top: 80px;
 
     }
+
+    .sandstorm {
+        margin-top: -10px;
+    }
 }
 
 .sandstorm {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
-    /* Pone la arena detrás del texto */
     pointer-events: none;
+    margin-top: -20px;
 }
 
 

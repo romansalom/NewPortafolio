@@ -11,12 +11,12 @@ export default function Hero() {
         const canvas = canvasRef.current;
         const ctx = canvas.getContext("2d");
         canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
+        canvas.height = '200';
 
         let particles = [];
         class Particle {
             constructor() {
-                const startInside = Math.random() < 900; // 50% de chance de que inicie dentro del canvas
+                const startInside = Math.random() < 10; // 50% de chance de que inicie dentro del canvas
 
                 if (startInside) {
                     // Aparece en una posición aleatoria dentro del canvas
@@ -27,7 +27,7 @@ export default function Hero() {
                 }
 
                 this.y = Math.random() * (canvas.height / 2) + (canvas.height * 2) / 2;
-                this.size = Math.random() * 1.5 + 0.5;
+                this.size = Math.random() * 2 + 0.5;
                 this.speedX = (Math.random() < 0.5 ? 1 : -1) * (Math.random() * 0.8 + 0.2);
                 this.speedY = Math.random() * 1 - 0.25;
             }
@@ -85,9 +85,11 @@ export default function Hero() {
             <div className={styles.container}>
                 <h2>{texts[language].title}</h2>
             </div>
-            <div className={styles.paragraph}>Full Stack Developer</div>
+            <div className={styles.paragraph}>
+                <>Full Stack Developer</>
+                <canvas ref={canvasRef} className={styles.sandstorm}></canvas></div>
 
-            <canvas ref={canvasRef} className={styles.sandstorm}></canvas>
+
         </div>
     );
 }
