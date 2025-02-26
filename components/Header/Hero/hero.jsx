@@ -67,8 +67,7 @@ export default function Hero() {
 
             requestAnimationFrame(animate);
         }
-
-        createParticles(100);
+        createParticles(200);
         animate();
 
         return () => {
