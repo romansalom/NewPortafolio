@@ -1,0 +1,23 @@
+.switch_btn {
+    background-color: transparent;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+
+.switch_btn span {
+    font-family: 'Tangerine', cursive;
+    font-weight: 600;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1),
+        -2px -2px 5px rgba(255, 255, 255, 0.1);
+    font-size: 30px;
+}
+
+@media (min-width: 1600px) {
+    .switch_btn span {
+        font-size: 45px;
+    }
+}

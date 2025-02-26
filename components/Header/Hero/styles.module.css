@@ -6,21 +6,47 @@
 
 
 .container h2 {
-    color: white;
-    font-size: 38px;
-    font-family: "Montserrat", Sans-serif;
     max-width: 650px;
     text-align: center;
     line-height: 50px;
-    margin-top: 60px;
+    margin-top: 80px;
+    font-family: none;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 60px;
+    color: #3a321e;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1),
+        -2px -2px 5px rgba(255, 255, 255, 0.1);
+
 
 
 }
 
 .paragraph {
-    color: white;
-    font-size: 32px;
+    color: rgb(54, 54, 49);
+    font-size: 30px;
     font-family: 'Tangerine', cursive;
     text-align: center;
-    font-weight: 400px;
+    font-weight: 600;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1),
+        -2px -2px 5px rgba(255, 255, 255, 0.1);
+
+}
+
+
+@media (min-width: 1600px) {
+    .paragraph {
+        font-size: 45px;
+    }
+
+    .container h2 {
+        font-size: 72px;
+        max-width: 900px;
+
+    }
+
+    .container {
+        margin-top: 80px;
+
+    }
 }

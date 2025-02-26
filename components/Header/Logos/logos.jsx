@@ -1,15 +1,23 @@
-
 import styles from './styles.module.css';
+import Image from 'next/image';
+import a from '../../images/hubspotLogo.png'
+import b from '../../images/nextjsLogo.png'
+import c from '../../images/nodeLogo.png'
+import d from '../../images/reactLogo.png'
+
+
+
 
 export default function Logos() {
     return (
-        <div className={styles.container}>
-            <img src="logo1.png" alt="Logo 1" className={styles.logo1} />
-            <img src="logo2.png" alt="Logo 2" className={styles.logo2} />
-            <img src="logo3.png" alt="Logo 3" className={styles.logo3} />
-            <img src="logo4.png" alt="Logo 4" className={styles.logo4} />
-            <img src="logo5.png" alt="Logo 5" className={styles.logo5} />
-            <img src="logo6.png" alt="Logo 6" className={styles.logo6} />
+        <div className={styles.container} >
+            <Image src={a} className={styles.logo} width={'100%'} height={'100%'} alt='test' />
+            <Image src={b} className={styles.logo2} width={'100%'} height={'100%'} alt='test' />
+            <Image src={c} className={styles.logo2} width={'100%'} height={'100%'} alt='test' />
+            <Image src={d} className={styles.logo2} width={'100%'} height={'100%'} alt='test' />
+
+
+
         </div>
     );
 }

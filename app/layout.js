@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from './styles.module.css';
+import { LanguageProvider } from "@/context/LanguageContext";
 
 
 const geistSans = Geist({
@@ -22,15 +23,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Sacramento&family=Dancing+Script&family=Pinyon+Script&family=Parisienne&family=Tangerine&display=swap"
           rel="stylesheet"
         />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} ${styles.container}`}>
-        {children}
-      </body>
+        <LanguageProvider>{children}</LanguageProvider>      </body>
     </html>
   );
 }
