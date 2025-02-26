@@ -1,3 +1,20 @@
+/* Fondo borroso cuando se activa */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    /* Aplica el desenfoque */
+    background-color: rgba(255, 252, 252, 0.2);
+    /* Oscurece ligeramente */
+    transition: backdrop-filter 0.7s ease-in, background-color 0.7s ease-out;
+    z-index: 1;
+    /* Se asegura de estar detrás del botón */
+}
+
+/* Botón de cambio de idioma */
 .switch_btn {
     background-color: transparent;
     padding: 8px 16px;
@@ -5,9 +22,12 @@
     font-size: 16px;
     font-weight: bold;
     transition: all 0.3s ease;
+    position: relative;
+    /* Lo mantiene por encima del blur */
+    z-index: 2;
 }
 
-
+/* Estilos del texto del botón */
 .switch_btn span {
     font-family: 'Tangerine', cursive;
     font-weight: 600;
