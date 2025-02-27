@@ -6,13 +6,13 @@
 
 @media (max-width: 560px) {
     .container {
-        height: 800px
+        height: 650px
     }
 }
 
 @media (min-width: 1600px) {
     .container {
-        height: 600px
+        height: 950px
     }
 
 
