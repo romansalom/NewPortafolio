@@ -54,6 +54,7 @@
     .sandstorm {
         margin-top: 10px;
     }
+
 }
 
 .sandstorm {
@@ -82,5 +83,26 @@
     100% {
         opacity: 1;
         transform: translateY(0%);
+    }
+}
+
+@media (max-width: 560px) {
+
+    .sandstorm {
+        display: none;
+    }
+
+    .container h2 {
+        margin-top: 40px;
+    }
+
+    .container h2 {
+        text-align: left;
+    }
+
+    .paragraph {
+        text-align: left;
+        font-size: 40px;
+        margin-top: 0px;
     }
 }

@@ -11,3 +11,12 @@
         height: 100vh;
     }
 }
+
+@media (max-width: 560px) {
+
+    .container {
+        padding: 0px 7px;
+
+    }
+
+}

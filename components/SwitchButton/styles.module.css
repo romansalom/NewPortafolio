@@ -17,7 +17,7 @@
 /* Botón de cambio de idioma */
 .switch_btn {
     background-color: transparent;
-    padding: 8px 16px;
+    padding: 0px 16px;
     cursor: pointer;
     font-size: 35px;
     font-weight: bold;
