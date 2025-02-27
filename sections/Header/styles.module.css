@@ -1,11 +1,19 @@
 .container {
-
+    height: 600px;
     background-color: #e4d5bc;
-    height: 1000px
+
 }
 
 @media (max-width: 560px) {
     .container {
         height: 800px
     }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        height: 600px
+    }
+
+
 }
