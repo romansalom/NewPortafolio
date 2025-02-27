@@ -1,4 +1,8 @@
 .section {
-    background-color: rgb(2, 111, 207);
-    width: 100%;
+    background: rgb(8, 4, 1);
+    padding: 55px 60px;
+}
+
+.navBar {
+    margin-top: 60px;
 }

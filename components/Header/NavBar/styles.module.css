@@ -1,14 +1,17 @@
 .container {
-    background: linear-gradient(135deg, #3a321e, #3d3420, #3a321e);
+    background: #e4d5bc;
     z-index: 0;
     transition: background-position 0.1s ease;
     border-radius: 30px;
     max-width: 500px;
     width: 100%;
     margin: 0px auto;
+    height: 100%;
+    max-height: 76px;
     padding: 1px;
     box-shadow:
-        0 0 20px rgba(255, 255, 255, 0.224);
+        0 0 10px #e4d5bc;
+    ;
 }
 
 .sections {
@@ -21,18 +24,21 @@
 
 .sections li {
     list-style-type: none;
-    color: #e4d5bc;
+    color: #3a321e;
     font-size: 16px;
     font-weight: bold;
     margin: 0;
     position: relative;
+
 }
 
 .sections li a {
     display: block;
     text-decoration: none;
     color: inherit;
-    font-family: Arial;
+    font-family: none;
+    font-weight: 500;
+    font-size: 22px;
 
 }
 
@@ -42,8 +48,8 @@
     bottom: 0;
     left: 0;
     width: 0;
-    height: 2px;
-    background-color: #ffffff;
+    height: 2.5px;
+    background-color: rgb(8, 4, 1);
     transition: width 0.3s ease;
 }
 

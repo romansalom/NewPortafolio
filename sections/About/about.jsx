@@ -11,8 +11,11 @@ export default function About() {
         <div >
 
             <div className={styles.section} >
-                <NavBar></NavBar>
-                <div >Roman Salom</div>
+
+                <div className={styles.navBar}>
+                    <NavBar></NavBar>
+                </div>
+
             </div>
             <div >
             </div>
