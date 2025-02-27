@@ -1,5 +1,5 @@
 .container {
-    background: linear-gradient(135deg, rgba(0, 162, 255, 0.192), rgba(40, 131, 184, 0.938), rgba(0, 162, 255, 0.534));
+    background: linear-gradient(135deg, #3a321e, #3d3420, #3a321e);
     z-index: 0;
     transition: background-position 0.1s ease;
     border-radius: 30px;
@@ -9,6 +9,7 @@
     padding: 1px;
     box-shadow:
         0 0 20px rgba(255, 255, 255, 0.224);
+    margin-top: 80px;
 }
 
 .sections {
@@ -21,7 +22,7 @@
 
 .sections li {
     list-style-type: none;
-    color: #f1f1f1;
+    color: #e4d5bc;
     font-size: 16px;
     font-weight: bold;
     margin: 0;

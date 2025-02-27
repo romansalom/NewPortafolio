@@ -10,7 +10,7 @@
     max-width: 850px;
     text-align: center;
     line-height: 50px;
-    margin-top: 80px;
+    margin-top: 40px;
     font-family: none;
     font-size: 56px;
     font-weight: 100;
@@ -47,7 +47,7 @@
     }
 
     .container {
-        margin-top: 80px;
+        margin-top: 60px;
 
     }
 
@@ -92,17 +92,20 @@
         display: none;
     }
 
-    .container h2 {
-        margin-top: 40px;
+    .container {
+        padding: 0px 20px;
     }
 
     .container h2 {
+        margin-top: 30px;
         text-align: left;
     }
+
 
     .paragraph {
         text-align: left;
         font-size: 40px;
-        margin-top: 0px;
+        padding: 0px 20px;
+
     }
 }
