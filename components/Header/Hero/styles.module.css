@@ -43,7 +43,7 @@
     .container h2 {
         font-size: 72px;
         max-width: 900px;
-
+        margin-top: 120px;
     }
 
     .container {
@@ -52,7 +52,7 @@
     }
 
     .sandstorm {
-        margin-top: -10px;
+        margin-top: 10px;
     }
 }
 
