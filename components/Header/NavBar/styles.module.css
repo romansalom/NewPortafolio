@@ -1,5 +1,6 @@
 .container {
-    background: #e4d5bc;
+    background: #e2dbd0;
+    ;
     z-index: 0;
     transition: background-position 0.1s ease;
     border-radius: 30px;
@@ -29,6 +30,7 @@
     font-weight: bold;
     margin: 0;
     position: relative;
+    font-family: 'Geist Mono';
 
 }
 
@@ -42,6 +44,7 @@
 
 }
 
+/*
 .sections li::after {
     content: '';
     position: absolute;
@@ -49,9 +52,10 @@
     left: 0;
     width: 0;
     height: 2.5px;
-    background-color: rgb(8, 4, 1);
+    background-color: #3a321e;
     transition: width 0.3s ease;
 }
+    */
 
 .sections li:hover::after {
     width: 100%;
