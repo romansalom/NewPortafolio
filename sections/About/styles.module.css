@@ -2,6 +2,8 @@
     background: rgb(8, 4, 1);
     padding: 55px 60px;
     height: 1200px;
+    justify-content: center;
+    display: flex;
 }
 
 .navBar {

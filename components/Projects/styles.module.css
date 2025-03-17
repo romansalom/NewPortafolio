@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    gap: 40px;
+}
+
+.cardContainer {
+    border: 1px red solid;
+    max-width: 500px;
+    width: 100%;
+}
+
+.cardContainer h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.cardContainer img {
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
