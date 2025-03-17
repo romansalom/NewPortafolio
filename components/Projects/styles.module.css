@@ -4,7 +4,7 @@
 }
 
 .cardContainer {
-    border: 1px red solid;
+    border: 6px rgb(21, 57, 78) solid;
     max-width: 500px;
     width: 100%;
 }
@@ -21,4 +21,8 @@
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.cardContent {
+    padding: 0px 40px;
 }

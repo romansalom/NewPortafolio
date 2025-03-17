@@ -1,5 +1,5 @@
 .container {
-    background: #e2dbd0;
+    background: #ebeaea;
     ;
     z-index: 0;
     transition: background-position 0.1s ease;
@@ -11,8 +11,10 @@
     max-height: 76px;
     padding: 1px;
     box-shadow:
-        0 0 10px #e4d5bc;
+        0px 0px 20px 8px rgb(44, 105, 141);
     ;
+    margin-bottom: 100px;
+
 }
 
 .sections {
