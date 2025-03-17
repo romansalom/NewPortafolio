@@ -1,28 +1,72 @@
 .container {
-    display: flex;
-    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    justify-content: center;
 }
 
 .cardContainer {
-    border: 6px rgb(21, 57, 78) solid;
+    border: 6px rgb(235, 235, 235);
     max-width: 500px;
     width: 100%;
+    box-shadow:
+        0px 0px 20px 8px rgb(68, 151, 199);
+    ;
+    border-radius: 36px;
 }
 
-.cardContainer h2 {
+.cardContent h2 {
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
     color: white;
+    font-family: 'Geist Mono';
+    font-size: 26px;
 }
 
-.cardContainer img {
+.cardContent p {
+    color: white;
+    font-family: 'Geist Mono';
+}
+
+.cardContent img {
     object-fit: contain;
     max-width: 100%;
+    max-height: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+    border-radius: 12px;
+    margin-top: 35px;
 }
 
+.button {
+    background-color: #4eabe0;
+    padding: 10px;
+    width: 100px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    justify-content: center;
+    border-radius: 12px;
+    border: 2px #4497c7 solid;
+
+}
+
+.button a {
+    font-family: 'Geist Mono';
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+
+
 .cardContent {
-    padding: 0px 40px;
+    padding: 10px 40px;
+}
+
+.buttonContenedor {
+
+    justify-content: end;
+    display: flex;
 }
