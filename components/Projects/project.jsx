@@ -111,8 +111,8 @@ export default function Projects() {
                                 <h2>{project.title[language]} -{language === "Es" ? "Detalles" : "Details"}</h2>
                                 <p>{project.details[language]}</p>
                                 <br></br>
-                                <p>  Github Link : <a href={project.repositorio[language]}> {project.repositorio[language]}</a></p>
-                                <p>  Web Link : <a href={project.view[language]}> {project.view[language]}</a></p>
+                                <p><a href={project.repositorio[language]}>Github </a></p>
+                                <p><a href={project.view[language]}> Deploy</a></p>
 
                                 <div className={styles.buttonContenedor}>
                                     <div className={styles.button} onClick={() => toggleContent(index)}>
