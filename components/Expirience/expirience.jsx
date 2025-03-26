@@ -1,11 +1,18 @@
 // components/ItalicsName.js
 "use client"
 import styles from "./styles.module.css";
+import { useLanguage } from "@/context/LanguageContext";
 
 
 export default function Expirience() {
+    const { language } = useLanguage();
 
-
+    const texts = {
+        En: { title: `Web Developer`, paragraph: 'parrafo ingles Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores, cumque, et provident delectus unde consectetur, impedit neque sequi placeat doloribus repellendus mollitia eius adipisci sed illo nemo enim non.' },
+        Es: {
+            title: `Desarrollador Web`, paragraph: 'parrafo espanol Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores, cumque, et provident delectus unde consectetur, impedit neque sequi placeat doloribus repellendus mollitia eius adipisci sed illo nemo enim non.'
+        }
+    };
     return (
         <div className={styles.container} >
             <div>
@@ -13,8 +20,8 @@ export default function Expirience() {
 
             </div>
             <div className={styles.section}>
-                <h3 className={styles.subTitulo}>Web Developer</h3>
-                <p className={styles.parrafo}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, ipsam officia! Eius dolor voluptas magnam alias modi totam amet sint rem suscipit quis a praesentium sed neque, incidunt doloremque laborum?</p>
+                <h3 className={styles.subTitulo}>{texts[language].title}</h3>
+                <p className={styles.parrafo}>{texts[language].paragraph}</p>
 
                 <div className={styles.contenedorDoble}>
                     <div className={styles.izquierda}>
@@ -31,7 +38,7 @@ export default function Expirience() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
 
 
     );
