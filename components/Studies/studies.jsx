@@ -16,31 +16,64 @@ export default function Studies() {
     };
 
     return (
-        <div className={styles.container} >
-            <div>
-                <h2 className={styles.titulo}>Curso 1</h2>
+        <>
 
-            </div>
-            <div className={styles.section}>
-                <h3 className={styles.subTitulo}>{texts[language].title}</h3>
-                <p className={styles.parrafo}>{texts[language].paragraph}</p>
+            <div className={styles.container} >
+                <div>
+                    <h2 className={styles.titulo}>Curso 1</h2>
 
-                <div className={styles.contenedorDoble}>
-                    <div className={styles.izquierda}>
-                        <h3 className={styles.subTitulo}>Proyect 1</h3>
-                        <p className={styles.parrafo}>Descritpion</p>
-                        <h3 className={styles.subTitulo}>Proyect 2</h3>
-                        <p className={styles.parrafo}>Descritpion</p>
-                        <h3 className={styles.subTitulo}>Proyect 3</h3>
-                        <p className={styles.parrafo}>Descritpion</p>
-                    </div>
-                    <div className={styles.derecha}>
-                        <img className={styles.img} src="/images/download.jpeg" width={100} height={100} />
+                </div>
+                <div className={styles.section}>
+                    <h3 className={styles.subTitulo}>{texts[language].title}</h3>
+                    <p className={styles.parrafo}>{texts[language].paragraph}</p>
 
+                    <div className={styles.contenedorDoble}>
+                        <div className={styles.izquierda}>
+                            <h3 className={styles.subTitulo}>Proyect 1</h3>
+                            <p className={styles.parrafo}>Descritpion</p>
+                            <h3 className={styles.subTitulo}>Proyect 2</h3>
+                            <p className={styles.parrafo}>Descritpion</p>
+                            <h3 className={styles.subTitulo}>Proyect 3</h3>
+                            <p className={styles.parrafo}>Descritpion</p>
+                        </div>
+                        <div className={styles.derecha}>
+                            <img className={styles.img} src="/images/download.jpeg" width={100} height={100} />
+
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div >
+
+            </div >
+
+            <div className={styles.container} >
+                <div>
+                    <h2 className={styles.titulo}>Curso 1</h2>
+
+                </div>
+                <div className={styles.section}>
+                    <h3 className={styles.subTitulo}>{texts[language].title}</h3>
+                    <p className={styles.parrafo}>{texts[language].paragraph}</p>
+
+                    <div className={styles.contenedorDoble}>
+                        <div className={styles.izquierda}>
+                            <h3 className={styles.subTitulo}>Proyect 1</h3>
+                            <p className={styles.parrafo}>Descritpion</p>
+                            <h3 className={styles.subTitulo}>Proyect 2</h3>
+                            <p className={styles.parrafo}>Descritpion</p>
+                            <h3 className={styles.subTitulo}>Proyect 3</h3>
+                            <p className={styles.parrafo}>Descritpion</p>
+                        </div>
+                        <div className={styles.derecha}>
+                            <img className={styles.img} src="/images/download.jpeg" width={100} height={100} />
+
+                        </div>
+                    </div>
+                </div>
+
+            </div >
+
+        </>
+
 
 
     );

@@ -32,12 +32,12 @@ export default function NavBar() {
   };
 
   return (
-    <div>
+    <div className="component">
       <nav className={styles.container}>
         <ul className={styles.sections}>
           <li onClick={() => setSelectedSection("proyects")}>{texts[language].proyects}</li>
-          <li onClick={() => setSelectedSection("epirience")}>{texts[language].epirience}</li>
           <li onClick={() => setSelectedSection("studies")}>{texts[language].studies}</li>
+          <li onClick={() => setSelectedSection("epirience")}>{texts[language].epirience}</li>
         </ul>
       </nav>
       <div className={styles.content}>{renderComponent()}</div>
