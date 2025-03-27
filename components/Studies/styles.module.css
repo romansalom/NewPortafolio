@@ -1,0 +1,53 @@
+.container {
+    border: 6px rgb(235, 235, 235);
+    padding: 25px 40px;
+    box-shadow:
+        0px 0px 20px 8px rgb(68, 151, 199);
+    ;
+    border-radius: 36px;
+    max-width: 1200px;
+}
+
+
+.titulo {
+    font-family: 'Geist Mono';
+    font-size: 29px;
+    color: white;
+}
+
+.subTitulo {
+    font-family: 'Geist Mono';
+    font-size: 20px;
+    color: white;
+}
+
+.parrafo {
+    font-family: 'Geist Mono';
+    font-size: 16px;
+    color: white;
+}
+
+.section {
+    padding: 0px 10px;
+}
+
+.contenedorDoble {
+    width: 100%;
+    display: flex;
+}
+
+.izquierda {
+    width: 80%;
+    padding: 0px 15px;
+}
+
+.derecha {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.img {
+    border-radius: 20px;
+}

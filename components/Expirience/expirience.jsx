@@ -1,5 +1,6 @@
 // components/ItalicsName.js
 "use client"
+import Link from "next/link";
 import styles from "./styles.module.css";
 import { useLanguage } from "@/context/LanguageContext";
 
@@ -33,7 +34,7 @@ export default function Expirience() {
                         <p className={styles.parrafo}>Descritpion</p>
                     </div>
                     <div className={styles.derecha}>
-                        <img className={styles.img} src="/images/Captura de pantalla (137).png" width={100} height={100} />
+                        <Link href={'https://www.happyagencies.com/'}><img className={styles.img} src="/images/download.jpeg" width={100} height={100} /></Link>
 
                     </div>
                 </div>
