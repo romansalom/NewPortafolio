@@ -38,7 +38,6 @@
 
 .izquierda {
     width: 80%;
-    padding: 0px 15px;
 }
 
 .derecha {
@@ -55,4 +54,18 @@
 .container {
 
     margin-bottom: 100px;
+}
+
+.tecnologiesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tecnologiesContainer h3 {
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 14px;
 }
