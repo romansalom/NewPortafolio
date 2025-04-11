@@ -11,7 +11,7 @@ export default function Expirience() {
     const texts = {
         En: { title: `Web Developer`, paragraph: 'At Happy Agencies, I worked closely with international clients from the U.S., UK, and Australia, participating in direct meetings to gather requirements and deliver tailored solutions. My role involved building automations using Make, developing user interfaces in HubSpot, and creating custom modules, templates, custom cards, and workflows. I specialized in crafting scalable and dynamic solutions by leveraging the HubSpot API and its database, ensuring seamless integration and functionality based on each client’s specific needs.' },
         Es: {
-            title: `Desarrollador Web`, paragraph: 'parrafo espanol Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores, cumque, et provident delectus unde consectetur, impedit neque sequi placeat doloribus repellendus mollitia eius adipisci sed illo nemo enim non.'
+            title: `Desarrollador Web`, paragraph: 'En Happy Agencies trabajé con clientes internacionales de EE. UU., Reino Unido y Australia, participando en reuniones directas para relevar requerimientos y ofrecer soluciones personalizadas. Mi rol incluyó la creación de automatizaciones utilizando Make, el desarrollo de interfaces dentro de HubSpot, así como la construcción de módulos personalizados, templates, custom cards y workflows. Me especialicé en diseñar soluciones escalables y dinámicas, aprovechando la API de HubSpot y su base de datos, garantizando una integración fluida y funcionalidades ajustadas a las necesidades específicas de cada cliente.'
         }
     };
     return (
