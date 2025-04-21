@@ -5,6 +5,30 @@ import { useLanguage } from "@/context/LanguageContext";
 
 const projects = [
     {
+        title: { En: "Capital League", Es: "Liga Capital" },
+        description: {
+            En: "Node.js  || Javascript || Supabase || Next.js",
+            Es: "Node.js  || Javascript || Supabase || Next.js",
+        },
+        image: "/images/Captura de pantalla (195).png",
+        details: {
+            En: `Liga Capital is a web platform connecting amateur soccer teams in Buenos Aires, built with Next.js and Javascript. It features Supabase for authentication and PostgreSQL database, Tailwind CSS with shadcn/ui for responsive design, and Framer Motion for smooth animations. The platform enables team management with captain/player roles, match scheduling, and neighborhood league organization.`,
+            Es: `Liga Capital es una plataforma web que conecta equipos de fútbol amateur en Buenos Aires, desarrollada con Next.js y Javascript. Utiliza Supabase para autenticación y base de datos PostgreSQL, Tailwind CSS con shadcn/ui para diseño responsivo, y Framer Motion para animaciones fluidas. La plataforma permite gestión de equipos con roles de capitán/jugador, programación de partidos y organización de ligas barriales.`,
+        },
+        slack: {
+            En: `Technological stack: Javascript||React||Tailwind||Bccrypt||Express|| Node `,
+            Es: `Stack tecnologico: Javascript||React||Tailwind||Bccrypt||Express|| Node
+`,
+        },
+        repositorio: {
+            En: `https://github.com/romansalom/liga-final`,
+            Es: `https://github.com/romansalom/liga-final`
+        },
+        view: {
+            En: 'https://v0-futbol-de-barrio-project.vercel.app/',
+            Es: 'https://v0-futbol-de-barrio-project.vercel.app/'
+        },
+    }, {
         title: { En: "E-Comerce", Es: "E-Comerce" },
         description: {
             En: "Node.js  || Javascript || Express || React",
